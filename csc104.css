@@ -1,0 +1,40 @@
+/* to have CSS embedded into our HTML we use <style> syntax -->
+-- adding some style to our header -->
+-- background color (to have the header with a background), color: for the header text.-->
+-- to add margins to the paragraphs, we use margin keyword and then specify left, right, top, bottom and sizes. -->
+-- to add a background image, we specify the URL (the path the photo is located at in our computer) -->
+-- to make sure our background image does not repeat, we must specify it by adding "no-repeat" syntax -->
+-- to have the image "fixed" meaning in a fixed position, we simply add the word fixed -->
+-- to specify the size, since we want it to cover the whole page, we add the word "cover" -->
+-- to add background color to each paragraph so they stand out from the cover photo, we use syntax "background-color: color;"
+*/
+
+    p {
+        background-color:seashell;
+    }
+
+    body {
+        background-image: url("essential-oils-4017611.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    h1{
+        color:palevioletred;
+    }
+
+    h2{
+        color:indigo;
+    }
+
+    h3{
+        color:green;
+    }
+
+    p {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 150px;
+        margin-left: 80px;
+    }
